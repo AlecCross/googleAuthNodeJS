@@ -1,0 +1,30 @@
+{
+  "name": "googleauthnodejs",
+  "version": "1.0.0",
+  "description": "Implementing Google Authentication With Node JS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlecCross/googleAuthNodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlecCross/googleAuthNodeJS/issues"
+  },
+  "homepage": "https://github.com/AlecCross/googleAuthNodeJS#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^11.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
